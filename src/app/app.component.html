@@ -1,19 +1,42 @@
-<ul ngbNav #nav="ngbNav" class="nav-tabs justify-content-center">
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
   <li ngbNavItem>
     <a ngbNavLink>Home</a>
-    <ng-template ngbNavContent>My Home</ng-template>
+    <ng-template ngbNavContent>Home</ng-template>
   </li>
   <li ngbNavItem>
     <a ngbNavLink>Resume</a>
-    <ng-template ngbNavContent>My Resume</ng-template>
+    <ng-template ngbNavContent>Resume</ng-template>
   </li>
   <li ngbNavItem>
     <a ngbNavLink>Experience</a>
-    <ng-template ngbNavContent>My Experience</ng-template>
+    <ng-template ngbNavContent>Experience</ng-template>
   </li>
   <li ngbNavItem>
     <a ngbNavLink>Contact</a>
-    <ng-template ngbNavContent>My Contact</ng-template>
+    <ng-template ngbNavContent>Contact</ng-template>
   </li>
 </ul>
 <div [ngbNavOutlet]="nav"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <img class="card-img-top" src="/assets/img/enbg.jpg" alt="Picture of me">
+        <div class="card-body">
+          <h4 class="card-title">Mathias Micheli</h4>
+          <h5 class="card-subtitle">Fullstack Developer</h5>
+          <p class="card-text">I create this website by myself with AngularJS. I will use it as a portfolio. Enjoy !</p>
+          <a href="#" class="btn btn-primary">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img class="image-home" src="assets/img/home-pics.svg" alt="Design picture">
+    </div>
+  </div>
+</div>
+
+
+
+
