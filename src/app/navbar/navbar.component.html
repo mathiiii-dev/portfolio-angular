@@ -3,24 +3,28 @@
     <img src="/assets/img/brand.png" class="brand" alt="">
   </a>
 
-  <button class="navbar-toggler" type="button">
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse">
+  <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav mr-auto" routerLinkActive="active">
       <li class="nav-item">
-        <a class="nav-link" routerLink="">Home</a>
+        <a class="nav-link" routerLink="">{{ 'menu.1' | translate }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="resume">Resume</a>
+        <a class="nav-link" routerLink="resume">{{ 'menu.2' | translate }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="experience">Experience</a>
+        <a class="nav-link" routerLink="experience">{{ 'menu.3' | translate }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="contact">Contact</a>
+        <a class="nav-link" routerLink="contact">{{ 'menu.4' | translate }}</a>
       </li>
     </ul>
   </div>
 </nav>
+
+
+
+

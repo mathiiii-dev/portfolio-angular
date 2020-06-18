@@ -1,1 +1,30 @@
-<p>resume works!</p>
+<div class="container-lg">
+    <div class="row box-cv">
+        <div class="col-md-6">
+            <h3 class="text-cv">{{ 'presentation.name' | translate }}</h3>
+            <img src="/assets/img/cv.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+            <p class="text-cv">{{ 'cv.text' | translate }}</p>
+            <h4 class="titre-cv">Contact</h4>
+            <p class="text-cv">Age : 20 {{ 'cv.age' | translate }}</p>
+            <p class="text-cv">{{ 'cv.adr' | translate }} Les Covets, Curienne 73190, FRANCE</p>
+            <p class="text-cv">Tel : {{ 'cv.tel' | translate }} 06 95 74 09 65 </p>
+            <p class="text-cv">Mail : <a href="mailto:mathias.micheli@outlook.fr" class="link-cv"> mathias.micheli@outlook.fr</a></p>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-md-6 box-cv box-right">
+            <h4 class="titre-cv">{{ 'cv.about' | translate }}</h4>
+            <p class="text-cv">{{ 'cv.abouttxt' | translate }}</p>
+        </div>
+        <div class="col-md-6 box-cv box-left">
+            <h4 class="titre-cv">{{ 'cv.env' | translate }}</h4>
+            <p class="text-cv">Visual Studio Code
+                PHP Storm, Visual Studio,
+                Suite Office,
+                Linux (Ubuntu, Antergos)</p>
+        </div>
+    </div>
+
+</div>

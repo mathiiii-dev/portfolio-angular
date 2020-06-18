@@ -4,6 +4,7 @@ html, body
 {
   height: 100%;
   margin: auto;
+  background-color: #fafafa;
 }
 
 body
@@ -52,3 +53,44 @@ a:hover
     display: none;
   }
 }
+
+.translate-button{
+  border: none;
+  background-color: #fafafa;
+  float: right;
+}
+
+.text-cv{
+  text-align: justify;
+  color: white;
+}
+.titre-cv{
+  text-align: center;
+  color: white;
+}
+
+.box-cv
+{
+  background-color: #1e272e;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.link-cv
+{
+  color: white;
+}
+.link-cv:hover
+{
+  color: #6C63FF;
+}
+.box-right{
+  border-style: solid;
+  border-right-color: #fafafa;
+}
+.box-left{
+  border-style: solid;
+  border-left-color: #fafafa;
+}
+

@@ -1,0 +1,22 @@
+{
+  "presentation": {
+    "name" : "Mathias Micheli",
+    "title": "Développeur Fullstack",
+    "text": "J'ai crée ce site avec AngularJS. Je l'utiliserai comme portfolio. Enjoie :) !"
+  },
+  "menu": {
+    "1" : "Accueil",
+    "2" : "CV",
+    "3" : "Expérience",
+    "4" : "Contact"
+  },
+  "cv": {
+    "text" : "Développeur autonome et polyvalent, je sais parfaitement m’intégrer à un groupe déjà en place\ngrâce à mon esprit d’équipe. Je suis prêt à mettre toutes mes compétences à votre service tout\nen poursuivant ma formation de développeur web. Disponible, je suis a votre disposition pour\nvous rencontrer afin de vous prouver mes motivations et vous expliquer mon parcours.",
+    "age": "ans",
+    "adr" : "Adresse :",
+    "tel" : "",
+    "about" : "A propos",
+    "env": "Environnements & Logiciels",
+    "abouttxt" : "Permis B (véhicule)\nSport : Basket-ball en compétition\nVoyages : Etats-Unis (Dallas, TX), Espagne,\nPays-Bas, Allemagne, Italie\nCentres d'intérêts : Sports, jeux vidéo,\nl'univers d'Internet"
+  }
+}
