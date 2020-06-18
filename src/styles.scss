@@ -24,5 +24,31 @@ body
   height: 30px;
 }
 
+.box
+{
+  margin-top: 3rem;
+  padding: 17px;
+}
 
+a
+{
+  color: black;
+  text-align: center;
+}
+a:hover
+{
+  color: #6C63FF;
+}
 
+.brand-contact
+{
+  width: 100px;
+  height: 90px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .image-home {
+    display: none;
+  }
+}
