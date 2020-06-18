@@ -3,6 +3,7 @@
 html, body
 {
   height: 100%;
+  margin: auto;
 }
 
 body
@@ -17,6 +18,11 @@ body
   position: fixed;
 }
 
+.brand
+{
+  width: 30px;
+  height: 30px;
+}
 
 
 

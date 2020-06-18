@@ -20,7 +20,7 @@
     "@angular/localize": "~9.1.11",
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
-    "@angular/router": "~9.1.11",
+    "@angular/router": "^9.1.11",
     "@angular/service-worker": "~9.1.11",
     "@ng-bootstrap/ng-bootstrap": "^6.1.0",
     "bootstrap": "^4.5.0",
