@@ -17,6 +17,10 @@
     "tel" : "",
     "about" : "A propos",
     "env": "Environnements & Logiciels",
-    "abouttxt" : "Permis B (véhicule)\nSport : Basket-ball en compétition\nVoyages : Etats-Unis (Dallas, TX), Espagne,\nPays-Bas, Allemagne, Italie\nCentres d'intérêts : Sports, jeux vidéo,\nl'univers d'Internet"
+    "abouttxt" : "Permis B (véhicule) Sport : Basket-ball en compétition\nVoyages : Etats-Unis (Dallas, TX), Espagne, Pays-Bas, Allemagne, Italie\nCentres d'intérêts : Sports, jeux vidéo,\nl'univers d'Internet",
+
+    "exp": "Expériences professionnelles",
+    "stage-title": "Stagiaire Développeur",
+    "week": "semaines"
   }
 }

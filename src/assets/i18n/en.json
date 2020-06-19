@@ -17,6 +17,9 @@
     "tel" : "+33",
     "about" : "About me",
     "env": "Environements & Software",
-    "abouttxt" : "Driving License(vehicle)\nSport: Basketball in competition\nTravel: United States (Dallas, TX), Spain,\nNetherlands, Germany, Italy\nInterests: Sports, Video games,\nThe world of the internet"
+    "abouttxt" : "Driving License(vehicle)\nSport: Basketball in competition\nTravel: United States (Dallas, TX), Spain,\nNetherlands, Germany, Italy\nInterests: Sports, Video games,\nThe world of the internet",
+    "exp": "Professional experiences",
+    "stage-title": "Intern Developer",
+    "week" : "weeks"
   }
 }
