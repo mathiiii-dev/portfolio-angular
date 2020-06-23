@@ -6,6 +6,7 @@ html, body
   height: 100%;
   background-color: #2c3e50;
 }
+
 body{
   margin: 15px;
 }
@@ -20,27 +21,19 @@ p,a{
   font-family: 'Montserrat', sans-serif;
 }
 
-.brand
-{
-  width: 30px;
-  height: 30px;
-}
 
 a:hover
 {
-  color: #6C63FF;
+  color: #bf55ec;
 }
 
-.translate-button{
-  border: none;
-  background-color: #34495e;
-  float: right;
-}
+
 
 .text-cv{
   text-align: justify;
   color: white;
 }
+
 .titre-cv{
   text-align: center;
   color: white;
@@ -61,31 +54,9 @@ a:hover
 
 .link-cv:hover
 {
-  color: #6C63FF;
+  color: #bf55ec;
 }
 
-.nav-link{
-  color: white;
-}
 
-nav{
-  background-color: #34495e;
-}
 
-.navbar-toggler-icon{
-  background-color: #2c3e50;
-}
-
-.list-home{
-  background-color: #34495e;
-  list-style: none;
-}
-
-.home-icon{
-  height: 30px;
-  width: 30px;
-}
-.home-img{
-  border-radius: 5px;
-}
 
