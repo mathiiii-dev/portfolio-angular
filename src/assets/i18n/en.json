@@ -2,7 +2,7 @@
   "presentation": {
     "name" : "Mathias Micheli",
     "title": "Fullstack Developper",
-    "text": "I create this website by myself with AngularJS. I will use it as a portfolio. Enjoy !"
+    "text": "I created this website by myself with AngularJS. I will use it as a portfolio. Enjoy it!"
   },
   "menu": {
     "1" : "Home",
@@ -21,5 +21,20 @@
     "exp": "Professional experiences",
     "stage-title": "Intern Developer",
     "week" : "weeks"
+  },
+  "exp": {
+    "title-1": "Webapp Jean Lain",
+    "title-2": "Website Girard & Roux",
+    "title-3": "Website Les Films en plein air",
+    "title-4": "Website Chalets & Caviar",
+    "title-5": "BTS SIO : BTEC Higher National Diploma",
+    "title-6": "Alternship Alliance Reseaux : Master’s Degree",
+    "text-1": "First year of BTEC internship, I develop a webapp with Symfony",
+    "text-2": "Second year of BTEC, I develop a website with WordPress",
+    "text-3": "First year of master's degree, I develop a website with WordPress",
+    "text-4": "First year of master's degree, I develop a website's model with pure HTML, CSS, JS",
+    "text-5": "BTS SIO : BTEC Higher National Diploma",
+    "text-6": "Alternship Alliance Reseaux : Master’s Degree",
+    "btn": "See more"
   }
 }

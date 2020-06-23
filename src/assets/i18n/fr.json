@@ -18,9 +18,23 @@
     "about" : "A propos",
     "env": "Environnements & Logiciels",
     "abouttxt" : "Permis B (véhicule) Sport : Basket-ball en compétition\nVoyages : Etats-Unis (Dallas, TX), Espagne, Pays-Bas, Allemagne, Italie\nCentres d'intérêts : Sports, jeux vidéo,\nl'univers d'Internet",
-
     "exp": "Expériences professionnelles",
     "stage-title": "Stagiaire Développeur",
     "week": "semaines"
+  },
+  "exp": {
+    "title-1": "Site web Girard & Roux",
+    "title-2": "Site web Les Films en plein air",
+    "title-3": "Site web Chalets & Caviar",
+    "title-4": "Application web Jean Lain",
+    "title-5": "BTS SIO",
+    "title-6": "Alternance Alliance Reseaux : Master 1 ",
+    "text-1": "Première année de BTS, j'ai developper une appilcation web avec Symfony",
+    "text-2": "Deuxième année de BTS, j'ai developpé un site WordPress",
+    "text-3": "Première année de licence, j'ai développeé un site avec WordPress",
+    "text-4": "Première année de licence, j'ai développé une maquette de site en HTML, CSS et JS pure",
+    "text-5": "BTS SIO Option SLAM (développeur)",
+    "text-6": "Alternance OpenClassRooms chez Alliance Reseaux (licence et master 1)",
+    "btn": "Voir plus"
   }
 }
