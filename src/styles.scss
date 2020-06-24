@@ -4,7 +4,7 @@
 html, body
 {
   height: 100%;
-  background-color: #2c3e50;
+  background-color: #dff9fb;
 }
 
 body{
@@ -13,11 +13,11 @@ body{
 
 h1,h2,h3,h4,h5,h6{
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  color: white;
+  color: black;
 }
 
 p,a{
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -31,25 +31,25 @@ a:hover
 
 .text-cv{
   text-align: justify;
-  color: white;
+  color: black;
 }
 
 .titre-cv{
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .box-cv
 {
-  background-color: #34495e;
+  background-color: #c7ecee;
   border-radius: 5px;
   margin-top: 5px;
-  padding: 5px;
+  padding: 35px;
 }
 
 .link-cv
 {
-  color: white;
+  color: black;
 }
 
 .link-cv:hover
