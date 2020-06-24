@@ -1,14 +1,20 @@
-.play-1, .play-2{
+.play-1, .play-2
+{
   width:75px;
   height:75px;
   border-radius: 205px;
-  background: #c7ecee;
-  box-shadow:  2px 2px 4px #e5ffff,
-  -2px -2px 4px #3c546c;
+  background: #dff9fb;
+  box-shadow:  5px 5px 10px #bed4d5,
+  -5px -5px 10px #ffffff;
+  color: black;
   font-size: xx-large;
   margin-right: 5px;
   border: none;
+  outline: 0;
 }
-span{
+
+
+span
+{
   color: black;
 }

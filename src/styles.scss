@@ -21,13 +21,10 @@ p,a{
   font-family: 'Montserrat', sans-serif;
 }
 
-
 a:hover
 {
   color: #bf55ec;
 }
-
-
 
 .text-cv{
   text-align: justify;
@@ -59,6 +56,16 @@ a:hover
 
 .test{
   border: #bf55ec solid 1px;
+}
+
+.btn-primary{
+  background-color: #c7ecee;
+  color: black;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: #dff9fb;
+  color: black;
 }
 
 

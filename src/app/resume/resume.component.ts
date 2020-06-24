@@ -18,7 +18,7 @@ export class ResumeComponent implements OnInit {
 
     var animation1 = anime({
       targets: '.anime-cv-1',
-      translateX: ['-1000em',0],
+      translateX: ['-100em',0],
       autoplay: false,
       easing: 'spring(1, 80, 10, 0)'
     });
@@ -31,7 +31,7 @@ export class ResumeComponent implements OnInit {
 
     var animation2 = anime({
       targets: '.anime-cv-2',
-      translateX: ['-1000em', 0],
+      translateX: ['-100em', 0],
       autoplay: false,
       easing: 'spring(1, 80, 10, 0)'
     });

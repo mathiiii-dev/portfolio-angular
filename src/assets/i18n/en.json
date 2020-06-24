@@ -31,10 +31,16 @@
     "title-6": "Alternship Alliance Reseaux : Master’s Degree",
     "text-1": "First year of BTEC internship, I develop a webapp with Symfony",
     "text-2": "Second year of BTEC, I develop a website with WordPress",
-    "text-3": "First year of master's degree, I develop a website with WordPress",
-    "text-4": "First year of master's degree, I develop a website's model with pure HTML, CSS, JS",
+    "text-3": "First year of master's degree, I develop a website's model with pure HTML, CSS, JS",
+    "text-4": "First year of master's degree, I develop a website with WordPress",
     "text-5": "BTS SIO : BTEC Higher National Diploma",
     "text-6": "Alternship Alliance Reseaux : Master’s Degree",
-    "btn": "See more"
-  }
+    "btn": "See more",
+    "proj": "Projects :",
+    "educ" : "School :"
+  },
+  "404":{
+  "title": "Ooops something went wrong...",
+  "text" : "The page you are looking for does not exist !"
+}
 }
