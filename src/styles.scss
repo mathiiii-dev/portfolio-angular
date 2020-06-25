@@ -4,7 +4,7 @@
 html, body
 {
   height: 100%;
-  background-color: #dff9fb;
+  background-color: #0F4C81;
 }
 
 body{
@@ -13,45 +13,46 @@ body{
 
 h1,h2,h3,h4,h5,h6{
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  color: black;
+  color: #F5B895;
 }
 
 p,a{
-  color: black;
+  color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
 a:hover
 {
-  color: #bf55ec;
+  color: #F5B895;
 }
 
 .text-cv{
   text-align: justify;
-  color: black;
+  color: white;
 }
 
 .titre-cv{
   text-align: center;
-  color: black;
+  color: #F5B895;
 }
 
 .box-cv
 {
-  background-color: #c7ecee;
+  background-color: #658DC6;
   border-radius: 5px;
   margin-top: 5px;
   padding: 35px;
+  box-shadow:  4px 4px 8px #5678a8;
 }
 
 .link-cv
 {
-  color: black;
+  color: white;
 }
 
 .link-cv:hover
 {
-  color: #bf55ec;
+  color: #F5B895;
 }
 
 .test{
@@ -59,12 +60,12 @@ a:hover
 }
 
 .btn-primary{
-  background-color: #c7ecee;
+  background-color: #F5B895;
   color: black;
   border: none;
 }
 .btn-primary:hover{
-  background-color: #dff9fb;
+  background-color: #F3D5AD;
   color: black;
 }
 
