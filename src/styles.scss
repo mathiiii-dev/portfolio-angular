@@ -4,7 +4,7 @@
 html, body
 {
   height: 100%;
-  background:  #073B6A;
+  background:  #ecf0f1;
 }
 
 body{
@@ -13,36 +13,28 @@ body{
 
 h1,h2,h3,h4,h5,h6{
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  color: #F5B895;
+  color: #2c3e50;
 }
 
 p,a{
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
 }
 
 a:hover
 {
-  color: #F5B895;
+  color: #0F4C81;
 }
 
 .text-cv{
-  text-align: justify;
   color: white;
 }
 
 .titre-cv{
   text-align: center;
-  color: #F5B895;
+  color: #0F4C81;
 }
 
-.box-cv
-{
-  background-color: #0F4C81;
-  border-radius: 5px;
-  margin-top: 5px;
-  padding: 35px;
-}
 
 .link-cv
 {
@@ -59,14 +51,57 @@ a:hover
 }
 
 .btn-primary{
-  background-color: #0F4C81;
+  background-color: #2c3e50;
   color: white;
   border: none;
 }
 .btn-primary:hover{
-  background-color: #658DC6;
+  background-color: #2c3e50;
   color: white;
 }
+
+.font-size-title
+{
+  font-size: 500%;
+}
+
+.font-size-txt
+{
+  font-size: 300%;
+}
+
+.font-size-sec
+{
+  font-size: 160%;
+}
+
+.font-size-btn
+{
+  font-size: 125%;
+}
+
+@media screen and (max-width: 640px) {
+  .font-size-title
+  {
+    font-size: 200%;
+  }
+
+  .font-size-txt
+  {
+    font-size: 150%;
+  }
+
+  .font-size-sec
+  {
+    font-size: 100%;
+  }
+
+  .font-size-btn
+  {
+    font-size: 100%;
+  }
+}
+
 
 
 
