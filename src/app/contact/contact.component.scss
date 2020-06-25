@@ -16,3 +16,8 @@
   color: #F5B895;
   font-size: xx-large;
 }
+@media screen and (max-width: 640px) {
+  .ml2{
+    font-size: 27px;
+  }
+}
