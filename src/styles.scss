@@ -4,7 +4,7 @@
 html, body
 {
   height: 100%;
-  background-color: #0F4C81;
+  background: linear-gradient(to right, #00b4db, #0083b0);
 }
 
 body{
@@ -38,11 +38,10 @@ a:hover
 
 .box-cv
 {
-  background-color: #658DC6;
+  background-color: #0F4C81;
   border-radius: 5px;
   margin-top: 5px;
   padding: 35px;
-  box-shadow:  4px 4px 8px #5678a8;
 }
 
 .link-cv
@@ -60,13 +59,13 @@ a:hover
 }
 
 .btn-primary{
-  background-color: #F5B895;
-  color: black;
+  background-color: #0F4C81;
+  color: white;
   border: none;
 }
 .btn-primary:hover{
-  background-color: #F3D5AD;
-  color: black;
+  background-color: #658DC6;
+  color: white;
 }
 
 
