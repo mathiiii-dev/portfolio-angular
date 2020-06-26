@@ -15,27 +15,33 @@ export class ResumeComponent implements OnInit {
   ngOnInit(): void {
 
     anime({
-      targets: '.90',
-      width: '100%', // -> from '28px' to '100%',
-      easing: 'spring(1, 80, 10, 0)'
+      targets: '.tbon',
+      width: '95%', // -> from '28px' to '100%',
+      easing: 'spring(1, 50, 10, 0)'
     });
 
     anime({
-      targets: '.75',
+      targets: '.bon',
       width: '75%', // -> from '28px' to '100%',
-      easing: 'spring(1, 80, 10, 0)'
+      easing: 'spring(1, 50, 10, 0)'
     });
 
     anime({
-      targets: '.30',
+      targets: '.bof',
       width: '30%', // -> from '28px' to '100%',
-      easing: 'spring(1, 80, 10, 0)'
+      easing: 'spring(1, 50, 10, 0)'
     });
 
     anime({
-      targets: '.25',
+      targets: '.tbof',
       width: '25%', // -> from '28px' to '100%',
-      easing: 'spring(1, 80, 10, 0)'
+      easing: 'spring(1, 50, 10, 0)'
+    });
+
+    anime({
+      targets: '.moy',
+      width: '45%', // -> from '28px' to '100%',
+      easing: 'spring(1, 50, 10, 0)'
     });
   }
 }
