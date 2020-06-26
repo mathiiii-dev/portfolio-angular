@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     });
     anime({
       targets: '.anime-home-img',
-      translateX: [250, 0],
+      translateY: [100, 0],
       easing: 'spring(1, 80, 10, 0)'
     });
   }

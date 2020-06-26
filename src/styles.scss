@@ -26,39 +26,11 @@ a:hover
   color: #0F4C81;
 }
 
-.text-cv{
-  color: white;
-}
-
-.titre-cv{
-  text-align: center;
-  color: #0F4C81;
-}
-
-
-.link-cv
-{
-  color: white;
-}
-
-.link-cv:hover
-{
-  color: #F5B895;
-}
 
 .test{
   border: #bf55ec solid 1px;
 }
 
-.btn-primary{
-  background-color: #2c3e50;
-  color: white;
-  border: none;
-}
-.btn-primary:hover{
-  background-color: #2c3e50;
-  color: white;
-}
 
 .font-size-title
 {
@@ -98,9 +70,36 @@ a:hover
 
   .font-size-btn
   {
-    font-size: 100%;
+    font-size: 80%;
   }
+
 }
+
+::-moz-selection
+{
+  color: white;
+  background-color: #55efc4;
+}
+
+::selection
+{
+  color: white;
+  background-color: #55efc4;
+}
+
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.color-over{
+  background: linear-gradient(360deg, rgba(255,255,255,0) 25%, #55efc4 25%);
+  display: inline;
+}
+
 
 
 

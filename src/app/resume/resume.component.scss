@@ -1,19 +1,17 @@
-.play-1, .play-2
+.home-icon
 {
-  width:75px;
-  height:75px;
-  border-radius: 205px;
-  background: #0F4C81;
-  box-shadow:  3px 3px 6px #0d416e,
-  -3px -3px 6px #115794;
-  color: #F5B895;
-  font-size: xx-large;
-  margin-right: 5px;
-  border: none;
-  outline: 0;
+  height: 80px;
+  width: 80px;
+  margin: 40px;
+}
+@media screen and (max-width: 640px)
+{
+  .home-icon
+  {
+    margin: 11px;
+  }
 }
 
-span
-{
-  color: white;
+span{
+  color: #2c3e50;
 }

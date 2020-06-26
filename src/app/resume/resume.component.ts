@@ -14,31 +14,28 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    var play1 = document.querySelector('.play-1');
-
-    var animation1 = anime({
-      targets: '.anime-cv-1',
-      translateX: ['-100em',0],
-      autoplay: false,
+    anime({
+      targets: '.90',
+      width: '100%', // -> from '28px' to '100%',
       easing: 'spring(1, 80, 10, 0)'
     });
 
-    play1.addEventListener('click', function() {
-    animation1.play();
-    });
-
-    var play2 = document.querySelector('.play-2');
-
-    var animation2 = anime({
-      targets: '.anime-cv-2',
-      translateX: ['-100em', 0],
-      autoplay: false,
+    anime({
+      targets: '.75',
+      width: '75%', // -> from '28px' to '100%',
       easing: 'spring(1, 80, 10, 0)'
     });
 
-    play2.addEventListener('click', function() {
-      animation2.play();
+    anime({
+      targets: '.30',
+      width: '30%', // -> from '28px' to '100%',
+      easing: 'spring(1, 80, 10, 0)'
     });
 
+    anime({
+      targets: '.25',
+      width: '25%', // -> from '28px' to '100%',
+      easing: 'spring(1, 80, 10, 0)'
+    });
   }
 }

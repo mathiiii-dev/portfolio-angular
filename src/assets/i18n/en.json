@@ -1,28 +1,28 @@
 {
-  "presentation": {
+  "presentation":
+  {
     "name" : "Mathias Micheli",
     "title": "Fullstack Developper",
     "text": "I created this website by myself with AngularJS during a challenge with some friends.\n I will use it as a portfolio. Enjoy it!"
   },
-  "menu": {
+  "menu":
+  {
     "1" : "Home",
     "2" : "Resume",
     "3" : "Experience",
     "4" : "Contact"
   },
-  "cv": {
-    "text" : "Autonomous and versatile developer, I know how to integrate myself into a group already in place thanks to my team spirit. I am ready to put all my skills at your service while continuing my training as a web developer. Available, I am at your disposal to meet you in order to prove my motivations and explain my journey to you.",
+  "cv":
+  {
+    "text" : "My name is Mathias Micheli, and I'm actually a full stack developer in alternship. I began coding during my last year of high school, and I was following the STMG Option SIG class. From there, I went in a BTEC SIO Option SLAM to increase my developer's experience. And now I'm following an OpenClassRooms's formation of two years on PHP / Symfony. I would like in the future to be more confident in design and to continue to evolve as a developer.",
     "age": "yo",
-    "adr" : "Adress :",
-    "tel" : "+33",
     "about" : "About me",
     "env": "Environements & Software",
-    "abouttxt" : "Driving License(vehicle)\nSport: Basketball in competition\nTravel: United States (Dallas, TX), Spain,\nNetherlands, Germany, Italy\nInterests: Sports, Video games,\nThe world of the internet",
-    "exp": "Professional experiences",
-    "stage-title": "Intern Developer",
-    "week" : "weeks"
+    "exp": "My experiences"
+
   },
-  "exp": {
+  "exp":
+  {
     "title-1": "Webapp Jean Lain",
     "title-2": "Website Girard & Roux",
     "title-3": "Website Les Films en plein air",
@@ -36,11 +36,18 @@
     "text-5": "",
     "text-6": "",
     "btn": "See more",
-    "proj": "Projects :",
-    "educ" : "School :"
+    "proj": "Projects",
+    "educ" : "School",
+    "xp": "Professionals"
   },
-  "404":{
+  "404":
+  {
   "title": "Ooops something went wrong...",
   "text" : "The page you are looking for does not exist !"
-}
+  },
+  "btn":
+  {
+    "abt" : "About me",
+    "ctc" : "Contact me"
+  }
 }

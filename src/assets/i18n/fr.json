@@ -11,16 +11,10 @@
     "4" : "Contact"
   },
   "cv": {
-    "text" : "Développeur autonome et polyvalent, je sais parfaitement m’intégrer à un groupe déjà en place\ngrâce à mon esprit d’équipe. Je suis prêt à mettre toutes mes compétences à votre service tout\nen poursuivant ma formation de développeur web. Disponible, je suis a votre disposition pour\nvous rencontrer afin de vous prouver mes motivations et vous expliquer mon parcours.",
-    "age": "ans",
-    "adr" : "Adresse :",
-    "tel" : "",
+    "text" :"Je m'appelle Mathias Micheli, je suis actuellement développeur fullstack en alternance. J'ai commencé à coder lors de mon année de terminale, j'étais en STMG Option SIG. Par la suite, je suis allé en BTS SIO Option SLAM pour enrichir mon expérience de développeur. Et aujourd'hui, je suis une formation OpenClassRooms de deux ans sur PHP / Symfony. J'aimerais par la suite m'améliorer en design et continue à évoluer en tant que développeur :)",
     "about" : "A propos",
     "env": "Environnements & Logiciels",
-    "abouttxt" : "Permis B (véhicule) Sport : Basket-ball en compétition\nVoyages : Etats-Unis (Dallas, TX), Espagne, Pays-Bas, Allemagne, Italie\nCentres d'intérêts : Sports, jeux vidéo,\nl'univers d'Internet",
-    "exp": "Expériences professionnelles",
-    "stage-title": "Stagiaire Développeur",
-    "week": "semaines"
+    "exp": "Mes expériences"
   },
   "exp": {
     "title-1": "Application web Jean Lain",
@@ -36,11 +30,18 @@
     "text-5": "",
     "text-6": "",
     "btn": "Voir plus",
-    "proj": "Projets :",
-    "educ" : "Ecoles :"
+    "proj": "Projets",
+    "educ" : "Ecoles",
+    "xp": "Professionnelles"
   },
-  "404":{
+  "404":
+  {
     "title": "Ooops quelque chose ne vas pas...",
     "text" : "La page que tu essaie de voir n'existe pas !"
+  },
+  "btn":
+  {
+    "abt" : "A propos",
+    "ctc" : "Contact"
   }
 }

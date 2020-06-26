@@ -34,6 +34,11 @@ export class ContactComponent implements OnInit {
           loop: false,
           easing: 'cubicBezier(.5, .05, .1, .3)'
       });
+      anime({
+          targets: '.anime-home-img',
+          translateY: [100, 0],
+          easing: 'spring(1, 80, 10, 0)'
+      });
   }
 
 }

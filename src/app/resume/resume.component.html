@@ -1,36 +1,79 @@
-<div class="container mt-sm-0 mt-lg-4">
-    <div class="row box-cv mt-sm-0 mt-lg-4">
-        <div class="col-md-6 mt-sm-0 mt-lg-4">
-            <h3 class="text-cv" style="color: #F5B895;">{{ 'presentation.name' | translate }}</h3>
-            <img src="/assets/img/cv.jpg" class="rounded-circle" alt="">
-        </div>
-        <div class="col-md-6">
-            <p class="text-cv">{{ 'cv.text' | translate }}</p>
-            <h4 class="titre-cv">Contact</h4>
-            <p class="text-cv">Age : 20 {{ 'cv.age' | translate }}</p>
-            <p class="text-cv">{{ 'cv.adr' | translate }} Savoie, FRANCE</p>
-            <p class="text-cv">Mail : <a href="mailto:mathias.micheli@outlook.fr" class="link-cv"> mathias.micheli@outlook.fr</a></p>
+<div class="container">
+    <div class="row mt-5 mb-5 ">
+        <div class="col-12 text-center">
+            <p class="text-justify ">{{'cv.text' | translate}}</p>
         </div>
     </div>
-    <div class="row mt-sm-0 mt-lg-4">
-        <div class="col-md-6 text-center mt-3">
-            <button class="play-2">+</button><span>{{'cv.about' | translate}}</span>
-        </div>
-        <div class="col-md-6 box-cv anime-cv-2">
-            <h4 class="titre-cv">{{ 'cv.about' | translate }}</h4>
-            <p class="text-cv">{{ 'cv.abouttxt' | translate }}</p>
+    <div class="row">
+        <div class="col-12 text-center">
+            <span>HTML/CSS</span>
+            <div class="progress mb-3">
+                <div class="progress-bar 75" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+            </div>
+            <span>PHP / SQL</span>
+            <div class="progress mb-3">
+                <div class="progress-bar 75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+            <span>Symfony</span>
+            <div class="progress mb-3">
+                <div class="progress-bar 30" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+            </div>
+            <span>Javascript</span>
+            <div class="progress mb-3">
+                <div class="progress-bar 25" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+            </div>
+            <span>WordPress</span>
+            <div class="progress mb-3">
+                <div class="progress-bar 90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+            </div>
+            <span>C#</span>
+            <div class="progress mb-3">
+                <div class="progress-bar 90" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+            </div>
         </div>
     </div>
-    <div class="row ">
-        <div class="col-md-6 box-cv anime-cv-1">
-            <h4 class="titre-cv">{{ 'cv.env' | translate }}</h4>
-            <p class="text-cv">Visual Studio Code
-                PHP Storm, Visual Studio,
-                Suite Office,
-                Linux (Ubuntu, Antergos)</p>
+    <div class="row mt-5 mb-5">
+        <div class="col-12 mt-2 mb-2">
+            <h3 class="text-center">{{ 'cv.env' | translate }}</h3>
         </div>
-        <div class="col-md-6 text-center mt-3">
-            <button class="play-1">+</button><span>{{'cv.env' | translate}}</span>
+    </div>
+    <div class="row mb-5">
+        <div class="col-12 text-center mb-5">
+            <img src="/assets/img/phpstorm.png" class="home-icon" alt="">
+            <img src="/assets/img/vscode.png" class="home-icon" alt="">
+            <img src="/assets/img/microsoft.svg" class="home-icon" alt="">
+            <img src="/assets/img/github.svg" class="home-icon" alt="">
+            <img src="/assets/img/gitlab.svg" class="home-icon" alt="">
+            <img src="/assets/img/ubuntu.svg" class="home-icon" alt="">
+        </div>
+    </div>
+    <div class="row mt-5 mb-5">
+        <div class="col-12 mt-5 mb-5">
+            <h3 class="color-over">
+                {{'cv.exp' | translate}}
+            </h3>
+        </div>
+    </div>
+    <div class="row mt-5 mb-5">
+        <div class="col-md-4">
+            <h5 class="text-center mb-3">{{'exp.educ' | translate}}</h5>
+                <h6 class="text-center">Lycée du Granier</h6>
+                <p class="text-center">STMG Option SIG</p>
+                <h6 class="text-center">Lycée Aristides Berges</h6>
+                <p class="text-center">BTS SIO Option SLAM</p>
+                <h6 class="text-center">OpenClassRooms</h6>
+                <p class="text-center">DA - PHP / Symfony</p>
+        </div>
+        <div class="col-md-4 ">
+            <h5 class="text-center mb-3">{{'exp.xp'| translate }}</h5>
+            <h6 class="text-center">Stage Jean Lain Automobile</h6>
+            <p class="text-center">Développeur Symfony</p>
+            <h6 class="text-center">Stage Girard & Roux</h6>
+            <p class="text-center">Développeur Web</p>
+        </div>
+        <div class="col-md-4">
+            <h5 class="text-center mb-3">{{'exp.proj' | translate}}</h5>
+            <h6 class="text-center">A venir ...</h6>
         </div>
     </div>
 </div>

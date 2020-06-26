@@ -1,48 +1,8 @@
-
-.list-home{
-  background-color: #34495e;
-  list-style: none;
-}
-
-.home-icon{
-  height: 37px;
-  width: 37px;
-  margin: 11px;
-}
-
-.home-img{
-  border-radius: 5px;
-}
-
-.ul-home{
-  margin-top: 100px;
-}
-
-@media screen and (max-width: 640px) {
-  .home-link{
-    display: none;
-  }
-  .home-icon{
-    height: 44px;
-    width: 44px;
-    margin: 9px;
-  }
-  .ul-home{
-    margin-top: auto;
-  }
-}
-
-.color-over{
-  background: linear-gradient(360deg, rgba(255,255,255,0) 25%, #55efc4 25%);
-  display: inline;
-}
-
 .button-color
 {
-  border-color: #55efc4;
   color: #2c3e50;
   outline: 0;
   padding: 13px;
   margin: 13px;
-  border-radius: 2px;
+  border-radius: 5px;
 }
