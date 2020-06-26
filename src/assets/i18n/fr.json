@@ -17,22 +17,13 @@
     "exp": "Mes expériences"
   },
   "exp": {
-    "title-1": "Application web Jean Lain",
-    "title-2": "Site web Les Films en plein air",
-    "title-3": "Site web Chalets & Caviar",
-    "title-4": "Site web Girard & Roux",
-    "title-5": "BTS SIO",
-    "title-6": "Alternance Alliance Reseaux : Master 1 ",
-    "text-1": "Première année de BTS, j'ai developper une appilcation web avec Symfony",
-    "text-2": "Deuxième année de BTS, j'ai developpé un site WordPress",
-    "text-3": "Première année de licence, j'ai développeé un site avec WordPress",
-    "text-4": "Première année de licence, j'ai développé une maquette de site en HTML, CSS et JS pure",
-    "text-5": "",
-    "text-6": "",
-    "btn": "Voir plus",
+    "stage" : "Stage",
+    "lycee" : "Lycée",
     "proj": "Projets",
     "educ" : "Ecoles",
-    "xp": "Professionnelles"
+    "xp": "Professionnelles",
+    "cs" : "A venir ...",
+    "dev" : "Développeur"
   },
   "404":
   {
