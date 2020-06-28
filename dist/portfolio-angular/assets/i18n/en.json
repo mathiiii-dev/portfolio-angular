@@ -1,0 +1,44 @@
+{
+  "presentation":
+  {
+    "name" : "Mathias Micheli",
+    "title": "Fullstack Developper",
+    "text": "I created this website by myself with AngularJS during a challenge with some friends.\n I will use it as a portfolio. Enjoy it!"
+  },
+  "menu":
+  {
+    "1" : "Home",
+    "2" : "Resume",
+    "3" : "Experience",
+    "4" : "Contact"
+  },
+  "cv":
+  {
+    "text" : "My name is Mathias Micheli, and I'm actually a full stack developer in alternship. I began coding during my last year of high school, and I was following the STMG Option SIG class. From there, I went in a BTEC SIO Option SLAM to increase my developer's experience. And now I'm following an OpenClassRooms's formation of two years on PHP / Symfony. I would like in the future to be more confident in design and to continue to evolve as a developer.",
+    "age": "yo",
+    "about" : "About me",
+    "env": "Environements & Software",
+    "exp": "My experiences"
+
+  },
+  "exp":
+  {
+    "stage" : "Intership",
+    "lycee" : "High School",
+    "proj": "Projects",
+    "educ" : "School",
+    "xp": "Professionals",
+    "cs" : "Coming soon ...",
+    "dev" : "Developer"
+  },
+  "404":
+  {
+  "title": "Ooops something went wrong...",
+  "text" : "The page you are looking for does not exist !"
+  },
+  "btn":
+  {
+    "abt" : "About me",
+    "ctc" : "Contact me"
+  }
+}

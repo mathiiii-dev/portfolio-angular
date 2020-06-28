@@ -1,0 +1,38 @@
+{
+  "presentation": {
+    "name" : "Mathias Micheli",
+    "title": "Développeur Fullstack",
+    "text": "J'ai crée ce site avec AngularJS lors d'un challenge avec des amis. Je l'utiliserai comme portfolio. Enjoy it :) !"
+  },
+  "menu": {
+    "1" : "Accueil",
+    "2" : "CV",
+    "3" : "Expérience",
+    "4" : "Contact"
+  },
+  "cv": {
+    "text" :"Je m'appelle Mathias Micheli, je suis actuellement développeur fullstack en alternance. J'ai commencé à coder lors de mon année de terminale, j'étais en STMG Option SIG. Par la suite, je suis allé en BTS SIO Option SLAM pour enrichir mon expérience de développeur. Et aujourd'hui, je suis une formation OpenClassRooms de deux ans sur PHP / Symfony. J'aimerais par la suite m'améliorer en design et continue à évoluer en tant que développeur :)",
+    "about" : "A propos",
+    "env": "Environnements & Logiciels",
+    "exp": "Mes expériences"
+  },
+  "exp": {
+    "stage" : "Stage",
+    "lycee" : "Lycée",
+    "proj": "Projets",
+    "educ" : "Ecoles",
+    "xp": "Professionnelles",
+    "cs" : "A venir ...",
+    "dev" : "Développeur"
+  },
+  "404":
+  {
+    "title": "Ooops quelque chose ne vas pas...",
+    "text" : "La page que tu essaie de voir n'existe pas !"
+  },
+  "btn":
+  {
+    "abt" : "A propos",
+    "ctc" : "Contact"
+  }
+}
