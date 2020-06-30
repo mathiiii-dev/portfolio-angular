@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg anime-nav navbar-light">
   <a class="navbar-brand" href="#">
-    <img src="/assets/img/brand.png" class="brand" alt="">
+    <img src="/assets/img/brand.png" class="brand" alt="Brand">
   </a>
 
-  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()" alt="Menu-toggler">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -19,8 +19,8 @@
         <a class="nav-link nav-color" routerLink="contact" style="color: #34495e;">{{ 'menu.4' | translate }}</a>
       </li>
     </ul>
-    <button (click)="useLanguage('en')" class="translate-button"><img src="/assets/img/uk-flag.svg" alt="" width="33px"></button>
-    <button (click)="useLanguage('fr')" class="translate-button"><img src="/assets/img/fr-flag.svg" alt="" width="33px"></button>
+    <button (click)="useLanguage('en')" class="translate-button"><img src="/assets/img/uk-flag.svg" alt="Fr" width="33px"></button>
+    <button (click)="useLanguage('fr')" class="translate-button"><img src="/assets/img/fr-flag.svg" alt="En" width="33px"></button>
   </div>
 </nav>
 
