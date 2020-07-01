@@ -48,6 +48,13 @@ a:hover
   font-size: 125%;
 }
 
+
+@media screen and (max-width: 1440px) {
+  .footer{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .font-size-title
   {

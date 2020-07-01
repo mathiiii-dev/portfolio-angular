@@ -21,10 +21,32 @@
     gtag('js', new Date());
     gtag('config', 'UA-171064678-1');
   </script>
-
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#eaf7f7",
+          "text": "#2c3e50"
+        },
+        "button": {
+          "background": "#55efc4",
+          "text": "#2c3e50"
+        }
+      },
+      "theme": "classic",
+      "type": "opt-in",
+      "content": {
+        "message": "This website uses cookies for statistics only",
+        "dismiss": "Dismiss",
+        "allow": "Allow"
+      }
+    });
+  </script>
 </body>
 </html>
