@@ -3,7 +3,6 @@
 
 html, body
 {
-  height: 100%;
   background: #ecf0f1;
 }
 
@@ -48,13 +47,6 @@ a:hover
   font-size: 125%;
 }
 
-
-@media screen and (max-width: 1440px) {
-  .footer{
-    display: none;
-  }
-}
-
 @media screen and (max-width: 640px) {
   .font-size-title
   {
@@ -88,14 +80,6 @@ a:hover
 {
   color: white;
   background-color: #55efc4;
-}
-
-.footer
-{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  right: 0;
 }
 
 .color-over{
