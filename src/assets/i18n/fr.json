@@ -34,11 +34,5 @@
   {
     "abt" : "A propos",
     "ctc" : "Contact"
-  },
-  "rgpd": {
-    "text" : "Ce site utilise des cookies pour des mesures d'audiences seulement",
-    "dismiss": "Refuser",
-    "allow" : "Accepter"
-
   }
 }

@@ -40,11 +40,5 @@
   {
     "abt" : "About me",
     "ctc" : "Contact me"
-  },
-  "rgpd": {
-    "text" : "This website uses cookies for statistics only",
-    "dismiss": "Dismiss",
-    "allow" : "Allow"
-
   }
 }
