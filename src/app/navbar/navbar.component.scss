@@ -1,11 +1,20 @@
-.translate-button{
+.translate-button {
   border: none;
   float: right;
   outline: 0;
+  background: white;
 }
 
-.brand
-{
+.brand {
   width: 30px;
   height: 30px;
+  margin-top: -15px;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.nav-item {
+  font-size: larger;
 }

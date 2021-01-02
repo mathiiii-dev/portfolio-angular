@@ -1,8 +1,7 @@
 {
   "presentation": {
-    "name" : "Mathias Micheli",
     "title": "Développeur Fullstack",
-    "text": "J'ai crée ce site avec AngularJS lors d'un challenge avec des amis. Je l'utiliserai comme portfolio. Enjoy it :) !"
+    "text": "Je vis en France et je suis actuellement en alternance. Je suis toujours à la recherche de nouveau projet et d'apprendre de nouvelles technologies :)"
   },
   "menu": {
     "1" : "Accueil",

@@ -10,13 +10,13 @@
   <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav mr-auto" routerLinkActive="active">
       <li class="nav-item">
-        <a class="nav-link" routerLink="" style="color: #34495e;">{{ 'menu.1' | translate }}</a>
+        <a class="nav-link" routerLink="">{{ 'menu.1' | translate }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-color" routerLink="resume" style="color: #34495e;">{{ 'menu.2' | translate }}</a>
+        <a class="nav-link" routerLink="resume">{{ 'menu.2' | translate }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-color" routerLink="contact" style="color: #34495e;">{{ 'menu.4' | translate }}</a>
+        <a class="nav-link" routerLink="contact">{{ 'menu.4' | translate }}</a>
       </li>
     </ul>
     <button (click)="useLanguage('en')" class="translate-button"><img src="/assets/img/uk-flag.svg" alt="Fr" width="33px"></button>

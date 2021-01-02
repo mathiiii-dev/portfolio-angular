@@ -1,7 +1,7 @@
 {
   "name": "portfolio-angular",
   "short_name": "portfolio-angular",
-  "theme_color": "#55efc4",
+  "theme_color": "#4da0dc",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
